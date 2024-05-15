@@ -75,7 +75,8 @@ function maiorNumero(a, b) {
     }
 }
 
-let numeros = maiorNumero(2, 4);  // Nesse caso, também é possível fazer de outra maneira:
+let numeros = maiorNumero(2, 4);  
+// Nesse caso, também é possível fazer de outra maneira:
 
 function encontrarMaior(x, y) {
     return x > y ? x : y;
