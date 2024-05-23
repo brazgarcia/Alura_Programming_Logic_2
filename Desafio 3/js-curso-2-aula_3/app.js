@@ -99,18 +99,29 @@
 
 // calcularLados(5, 3);
 
-// 5) Crie uma função que mostre na tela a área e o perímetro de uma sala circular, utilizando seu raio que
-// será fornecido como parâmetro. Considere Pi = 3,14.
+// // 5) Crie uma função que mostre na tela a área e o perímetro de uma sala circular, utilizando seu raio que
+// // será fornecido como parâmetro. Considere Pi = 3,14.
 
-let pi = 3.14;
+// let pi = 3.14;
 
-function calcularRaio(raio) {
-    let areaCirculo = pi * (raio * raio);
-    let perimetroCirculo = 2 * pi * raio;
+// function calcularRaio(raio) {
+//     let areaCirculo = pi * (raio * raio);
+//     let perimetroCirculo = 2 * pi * raio;
    
-   console.log(`A área do círculo é ${areaCirculo}m², e o perímetro é ${perimetroCirculo} `);
-}
+//    console.log(`A área do círculo é ${areaCirculo}m², e o perímetro é ${perimetroCirculo} `);
+// }
 
-calcularRaio(2);
+// calcularRaio(2);
 
 // 6) Crie uma função que mostre na tela a tabuada de um número dado como parâmetro.
+
+let Contador = 0;
+
+function tabuada(produto) {
+    for (i = 0 ; i <= 10; i++) {
+        let resultado = produto * i; 
+        console.log(`${produto} * ${i} = ${resultado}`);
+    }
+}
+
+tabuada(2);
